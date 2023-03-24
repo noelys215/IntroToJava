@@ -1,18 +1,9 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        var scanner = new Scanner(System.in);
+        int firstNumber = 2;
+        int secondNumber = 5;
 
-        System.out.println(Doctor.intro());
-        var userInput = "";
-
-        while (!userInput.equalsIgnoreCase("quit")){
-            userInput = scanner.nextLine();
-            String response = Doctor.response(userInput);
-            System.out.println(response);
-        }
-
-        scanner.close();
+        var subtraction = 7;
+        var answer = 's';
     }
 }
